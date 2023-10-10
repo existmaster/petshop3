@@ -3,7 +3,6 @@
         <String label="ReviewId" v-model="value.reviewId" :editMode="editMode"/>
         <String label="ProductId" v-model="value.productId" :editMode="editMode"/>
         <String label="Comment" v-model="value.comment" :editMode="editMode"/>
-        <Rating offline label="Rating" v-model="value.rating" :editMode="editMode" @change="change"/>
 
         <v-divider class="border-opacity-100 my-divider"></v-divider>
         <v-layout row justify-end>
